@@ -1,0 +1,16 @@
+.main{
+    text-align: center;
+}
+.main span{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.main span:hover{
+    color:red;
+}
+.myBox{
+    margin-left:46%;
+    background-color: lightgrey;
+    width:100px;
+    height: 100px;
+}
