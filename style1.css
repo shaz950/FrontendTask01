@@ -1,14 +1,14 @@
-.main{
+main{
     flex-direction: column;
     display:flex;
     justify-content: center;
     align-items: center;
 }
-.main span{
+main span{
     font-size: 30px;
     font-family: sans-serif;
 }
-.main span:hover{
+main span:hover{
     color:red;
 }
 .myBox{
