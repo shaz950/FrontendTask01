@@ -1,6 +1,6 @@
 class Timer {
 
-    constructor(counter) {
+    constructor(counter){
         this.counter = counter;
     }
     getClicks(){
@@ -10,7 +10,7 @@ class Timer {
         this.counter = click;
     }
     printCount(){
-        var span = document.getElementById("clickCount");
+        let span = document.getElementById("clickCount");
         span.innerText = this.counter;
     }
     resetCounter(){
@@ -22,7 +22,7 @@ const timer = new Timer(0);
 
 function countClicks(){
 
-    var click = timer.getClicks();
+    let click = timer.getClicks();
     click++;
     timer.setClicks(click);
     timer.printCount();

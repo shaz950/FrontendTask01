@@ -1,5 +1,8 @@
 .main{
-    text-align: center;
+    flex-direction: column;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 .main span{
     font-size: 30px;
@@ -9,8 +12,10 @@
     color:red;
 }
 .myBox{
-    margin-left:46%;
     background-color: lightgrey;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     width:100px;
     height: 100px;
 }
